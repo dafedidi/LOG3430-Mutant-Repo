@@ -30,7 +30,7 @@ class CCoinBox:
 
     def retourne_monnaie(self):
         self.monnaie_courante = 0
-        self.vente_permise = False
+        self.vente_permise = True
         print("Voici votre monnaie")
 
     def get_monnaie_totale(self):

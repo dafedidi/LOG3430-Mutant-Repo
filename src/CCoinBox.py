@@ -17,7 +17,7 @@ class CCoinBox:
             self.monnaie_totale = self.monnaie_totale + 2
             self.monnaie_courante = self.monnaie_courante - 2
             print("Vente! Voici votre article ...")
-            if self.monnaie_courante < 2:
+            if self.monnaie_courante <= 2:
                 self.vente_permise = False
         else:
             print("Pas assez de monnaie")

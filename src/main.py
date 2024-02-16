@@ -23,6 +23,7 @@ def main():
             ],
             default=None,
         ).execute()
+        action = 'Reset'
         print(Separator())
         if action == "Reset":
             coinBox.reset()
